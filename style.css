@@ -9,3 +9,59 @@ h1{
     line-height: 5rem;
     
 }
+.Select{
+   height: 200px;
+   width: 200px;
+
+}
+.img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+   border-radius: 50%;
+   dispaly: flex;
+   justify-content: center;
+   align-items: center;
+}
+.choices{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 5rem;
+ margin-top: 5rem;
+ margin-bottom: 5rem;
+}
+
+.paper{
+    height: 150px;
+
+}
+.Select:hover{
+ 
+     opacity: 0.5;  
+    cursor: pointer;
+}
+.scoreBoard{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+gap: 5rem;
+
+}
+#userScore , #compScore{
+    font-size: 4rem;
+    
+}
+#mgs{
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    margin-top: 5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.messCointainer{
+    margin-top: 5rem;
+}
